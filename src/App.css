@@ -1,15 +1,22 @@
 * {
-    padding: 35px;
+    padding: 14px;
     left: 460px;
 
 }
 
-
-
-
 body {
     font-family: "Sora", sans-serif;
     font-size: 16px;
-
     background-color: #F6F6F6;
+}
+
+.background-photo-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.background-photo{
+    border-radius: 64px;
+
 }

@@ -34,8 +34,9 @@
     gap: 8px;
 }
 .search-png{
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
+    padding: 0px;
     filter: invert(100%) brightness(100%);
 }
 .nav {

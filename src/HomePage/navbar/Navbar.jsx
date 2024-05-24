@@ -15,7 +15,7 @@ export function Navbar() {
                 </div>
                 <div className="search-bar">
                     <button className="search-button">Search
-                        <img className="search-png" src="src\icons\Search.svg"/>                    
+                        <img className="search-png" src="src\icons\Vector.png"/>                    
                     </button>
                     
                 </div>

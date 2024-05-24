@@ -16,7 +16,7 @@ const DropdownMenu = ({dropdownName}) => {
   return (
     <div className="dropdown-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <button className="dropdown-button">{dropdownName}</button>
-      <img src="src\icons\ChevronDown.png" />
+      <img className='arrow' src="src\icons\ChevronDown.png" />
       {isHovered && (
         <div className="dropdown-content">
           <a href="#">Link 1</a>
