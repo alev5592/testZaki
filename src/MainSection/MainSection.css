@@ -1,0 +1,43 @@
+.background-photo-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+}
+
+.background-photo{
+    padding: 0px;
+    border-radius: 64px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: #333F4C;
+}
+
+.h1{
+    line-height: 0;
+    font-size: 64px;
+    font-weight: 600;
+    padding: 0px;
+}
+.h3{
+    padding: 0px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.article{
+    width: 800px;
+    height: 72px;
+    font-weight: 400;
+    color: #5E6771;
+    text-align: center; /* orizzontale */
+}
+.p{
+    padding: 0px;
+}

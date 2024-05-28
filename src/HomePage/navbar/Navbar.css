@@ -32,6 +32,7 @@
     color: #FFFFFF;
     font-size: inherit;
     gap: 8px;
+    font-weight: 400;
 }
 .search-png{
     width: 16px;
