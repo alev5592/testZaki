@@ -1,7 +1,7 @@
 
 import "./App.css"
 import { Navbar } from './HomePage/navbar/Navbar'
-import { MainSection } from "./MainSection/MainSection"
+import { MainSection } from "./HomePage/MainSection/MainSection"
 
 
 
@@ -11,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <MainSection />
+     
       
 
     </>

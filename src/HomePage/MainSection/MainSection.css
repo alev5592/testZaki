@@ -1,16 +1,16 @@
-.background-photo-container{
+.background-photo-container {
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 0px;
+
 }
 
-.background-photo{
-    padding: 0px;
+.background-photo {
+    width: 80%;
     border-radius: 64px;
 }
 
-.main-container{
+.main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,25 +19,28 @@
     color: #333F4C;
 }
 
-.h1{
+.h1 {
     line-height: 0;
     font-size: 64px;
     font-weight: 600;
     padding: 0px;
 }
-.h3{
+
+.h3 {
     padding: 0px;
     font-size: 24px;
     font-weight: 400;
 }
 
-.article{
+.article {
     width: 800px;
     height: 72px;
     font-weight: 400;
     color: #5E6771;
-    text-align: center; /* orizzontale */
+    text-align: center;
+    /* orizzontale */
 }
-.p{
+
+.p {
     padding: 0px;
 }
