@@ -2,6 +2,7 @@
 import "./App.css"
 import { Navbar } from './HomePage/navbar/Navbar'
 import { MainSection } from "./HomePage/MainSection/MainSection"
+import { CardSection } from "./HomePage/CardSection/CardSection"
 
 
 
@@ -9,10 +10,15 @@ import { MainSection } from "./HomePage/MainSection/MainSection"
 function App() {
   return (
     <>
+    
       <Navbar />
-      <MainSection />
-     
       
+      <div className="sections">
+        <MainSection />
+        <CardSection />
+      </div>
+
+
 
     </>
   )
