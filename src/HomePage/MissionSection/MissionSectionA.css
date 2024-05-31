@@ -2,16 +2,23 @@
     display: flex;
     flex-direction: row;
     width: 80%;
+    
+
+    padding-left: 0px;
+    
 }
 
 .mission-pic{
+ 
     border-radius: 64px;
+    margin: 0px;
+    padding: 0px;
     width: 50%;
     height: 100%;
 }
 
 .mission-article-container{
-    width: 50%;
+    width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +26,20 @@
 
 .mission-article{
     
-    border: 1px solid black;
-    width: fit-content;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
+}
+
+.mission-article-b{
+
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+
 }
 
