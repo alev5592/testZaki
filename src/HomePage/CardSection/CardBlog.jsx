@@ -1,11 +1,11 @@
-import "./CardSection.css"
+import "./CardBlog.css"
 import { CardTemplate } from "./CardTemplate"
 
-export function CardSection(){
+export function CardBlog(){
     return(
         <>
-            <div className="card-section-container">
-                <div className="cards-title">Our solutions</div>
+            <div className="card-section-container2">
+                <div className="cards-title">Latest from the blog</div>
                 <div className="multiple-cards">
                     <CardTemplate />
                     <CardTemplate />
@@ -13,7 +13,6 @@ export function CardSection(){
                     <CardTemplate />
                 </div>
             </div>
-            <div></div>
         </>
     )
 }

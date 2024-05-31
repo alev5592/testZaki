@@ -1,0 +1,36 @@
+.card-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 320px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+}
+
+.card-temp-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    height: 50%;
+    width: 90%;    
+}
+
+.card-button{
+    cursor: pointer;
+    border-radius: 64px;
+    padding: 0px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: #CD2D45;
+    color: #FFFFFF;
+    font-size: inherit;
+    font-weight: 400;
+    margin-left: 60%;
+    margin-bottom: 10%;
+}
+
