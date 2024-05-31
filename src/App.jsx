@@ -5,6 +5,7 @@ import { MainSection } from "./HomePage/MainSection/MainSection"
 import { CardSection } from "./HomePage/CardSection/CardSection"
 import { CardBlog } from "./HomePage/CardSection/CardBlog"
 import { Interested } from "./HomePage/Interested/Interested"
+import { MissionSectionA } from "./HomePage/MissionSection/MissionSectionA"
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <div className="sections">
         <MainSection />
         <CardSection />
+        <MissionSectionA />
         <Interested />
         <CardBlog />
         
